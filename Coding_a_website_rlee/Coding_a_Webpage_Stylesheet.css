@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 40px;
+  height: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+ 
+}nav
+	{
+		top: 0;
+		text-align:center;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	position: fixed;
+	background-color:white}
+	.nav {
+	font-family: 'Barlow', sans-serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+	.nav ul {
+	font-family: 'Barlow', sans-serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+		
+
+.nav li {
+	float: left
+}
+
+.nav li a {
+	display: block;
+	color: #FF6976;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+.active {background-color: #2E3192;
+		color: white;}
+.button a {
+  background-color: #FF6976;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	font-weight: 700;}
+.button a:hover
+			{
+			background-color: hotpink}
+
+			.a-header {color:white;}
+			.a-header:hover {color:#FF8F94;
+				font-weight:900}
+	
+			.clear{clear:both;
+			}
+.img_right {float:right}			
+.center {float: center}
+			.img_center{float:center;
+			padding-left: 250px}
+			.img_left{float:left}		
+
+	
+
+	header{
+	padding-top: 20px;
+	font-family: 'Barlow', sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #2E3192;
+	padding-bottom: 20px;
+		padding-left: 250px;
+	padding-right: 250px;
+	
+
+	
+}
+.a:hover {
+	color: #FF6976;}
+
+			
+
+	h1{font-size: 75px; 
+		
+			}
+h2 {
+    font-size: 40px;
+	margin-top:150px;
+	
+}
+			
+h3{text-align: center;
+	font-size: 50px;
+  	padding: 50px;}
+i{font-weight:300}
+			
+
+	
+section{
+	font-family: 'Barlow', sans-serif;
+	color:#2E3192;
+	font-size: 20px;
+	padding-left: 250px;
+	padding-right: 250px;		
+			}
+pictures{
+	font-size: 23px;
+	padding-top: 30px;
+	padding-left: 30px;}
+			
+	footer{
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color:#2E3192;
+		padding-top: 20px;
+	padding-left: 300px;
+	padding-right: 300px;
+	font-size: 15px
+			}	
